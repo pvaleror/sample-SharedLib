@@ -1,5 +1,5 @@
 #!/usr/bin/groovy
-def call(String ss){
+def main(String ss){
   node{
     echo "adf" + ss
   }

@@ -1,3 +1,3 @@
-def call(String some) {
-  
+def call() {
+  echo "adf"
 }

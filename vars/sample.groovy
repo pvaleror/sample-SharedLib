@@ -4,3 +4,5 @@ def call(){
     echo "adf"
   }
 }
+
+return this;

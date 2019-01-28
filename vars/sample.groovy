@@ -1,4 +1,6 @@
 #!/usr/bin/groovy
-def call(body){
-  echo "adf"
+def call(){
+  node{
+    echo "adf"
+  }
 }

@@ -1,7 +1,7 @@
 #!/usr/bin/groovy
-def call(){
+def call(String ss){
   node{
-    echo "adf"
+    echo "adf" + ss
   }
 }
 

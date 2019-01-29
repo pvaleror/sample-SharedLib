@@ -1,8 +1,4 @@
 #!/usr/bin/groovy
-def main(String ss){
-  node{
-    echo "adf" + ss
-  }
+def call(String ss = 'some'){
+  echo "adf => " + ss
 }
-
-return this;
